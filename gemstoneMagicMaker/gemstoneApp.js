@@ -60,7 +60,7 @@
         		"position": getPositionToCreateEntity(),
         		"userData": "{\"grabbableKey\":{\"grabbable\":true}}"
         	};
-        	if (event.data  === "Emerald") {
+        	if (event.data  === "Two") {
                 properties.name = "Emerald";
         		properties.shape = "Dodecahedron";
         		properties.color = {
@@ -74,7 +74,7 @@
                     "z": 0.20000000298023224
                 };
                 Entities.addEntity(properties);
-        	} else if (event.data  === "Ruby") {
+        	} else if (event.data  === "Three") {
                 properties.name = "Ruby";
         		properties.shape = "Octagon";
         		properties.color = {
@@ -88,7 +88,7 @@
                     "z": 0.12547987699508667
                 };
                 Entities.addEntity(properties);
-        	} else if (event.data  === "Sapphire") {
+        	} else if (event.data  === "Four") {
                 properties.name = "Sapphire";
         		properties.shape = "Icosahedron";
         		properties.color = {
@@ -102,7 +102,7 @@
                     "z": 0.23340839147567749
                 };
                 Entities.addEntity(properties);
-        	} else if (event.data  === "Quartz") {
+        	} else if (event.data  === "Five") {
                 properties.name = "Quartz";
         		properties.shape = "Octahedron";
         		properties.color = {
